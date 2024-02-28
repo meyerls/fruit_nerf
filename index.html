@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="https://github.com/meyerls/For5G/raw/master/resources/img.png">
+    <meta property="og:image" content="https://github.com/meyerls/For5G/raw/master/resources/img.png"/>
+    <meta property="og:title"
+          content="&#127822 &#129389 FruitNeRF &#127819 &#127825"/>
+    <meta property="og:description"
+          content="FruitNeRF: A Unified Neural Radiance Field based Fruit Counting Framework"/>
+    <meta charset="utf-8">
+    <meta name="keywords" content="FruitNeRF, neural radiance field, fruit counting, digital horticulture">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>&#127822 &#129389 FruitNeRF &#127819 &#127825</title>
+    <script src="static/js/video_comparison.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+
+
+    <link rel="stylesheet" href="static/css/dics.min.css">
+    <script src="static/js/dics.min.js"></script>
+
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--script defer src="./static/js/fontawesome.all.min.js"></script-->
+    <script src="./static/js/bulma-carousel.min.js"></script>
+
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/index.js"></script>
+
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-PYVRSFMDRL');
+
+        document.addEventListener('DOMContentLoaded', domReady);
+
+        function domReady() {
+            for (const e of document.querySelectorAll(".b-dics")) {
+                new Dics({
+                    container: e,
+                    textPosition: "top"
+                });
+            }
+        }
+
+    </script>
+
+</head>
+<body>
+
+
+<section class="hero">
+    <div class="hero-head">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <br>
+                    <h1 class="title publication-title">&#127822 &#129389 &#127824 &#127819 &#127825 </h1>
+                    <h1 class="title is-1 publication-title"><em>FruitNeRF</em>: A Unified Neural Radiance Field based
+                        Fruit
+                        Counting Framework</h1>
+                    <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://meyerls.github.io">Lukas Meyer</a><sup>1</sup>,</span>
+                        <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=h84gW6QAAAAJ&hl=de">Andreas Gilson</a><sup>2,3</sup>,</span>
+                        <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=fJXIVKsAAAAJ&hl=en">Ute Schmidt</a><sup>3</sup>,</span>
+                        <span class="author-block">
+              <a href="https://scholar.google.com/citations?hl=de&user=cx4AaqoAAAAJ">Marc Stamminger</a><sup>1</sup>,
+            </span>
+
+                    </div>
+                        <br>
+
+                    <div class="is-size-5 publication-authors">
+                        <span class="author-block"><sup>1</sup>Visual Computing Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg-Fürth, Germany,</span>
+                        <br>
+                        <span class="author-block"><sup>2</sup>Fraunhofer Institute for Integrated Circuits (IIS) - EZRT, Fürth, Germany</span>
+                        <br>
+                        <span class="author-block"><sup>3</sup>Cognitive Systems, University of Bamberg, Germany</span>
+                    </div>
+
+                    <div class="column has-text-centered">
+                        <div class="publication-links">
+                            <!-- PDF Link. -->
+                            <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+                            <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+                            <!-- Video Link. -->
+                            <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+                            <!-- Code Link. -->
+                            <span class="link-block">
+                <a href="https://github.com/meyerls/FruitNeRF"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+                            <!-- Dataset Link. -->
+                            <span class="link-block">
+                        <a href="google.com"
+                           class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="hero is-light is-small">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <div class="col-md-8 col-md-offset-1">
+                <video class="video" width=100% id="rgb_semantic_pg" loop playsinline autoplay muted
+                       src="static/videos/pg_rgb_semantic_merge.webm" onplay="resizeAndPlay(this)"></video>
+                <canvas height=0 class="videoMerge" id="rgb_semantic_pgMerge"></canvas>
+                <p class="text-justify">
+                </p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section is-small">
+    <div class="hero-body container has-text-centered">
+        <!-- Abstract. -->
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+            <p>
+                We introduce FruitNeRF a unified novel fruit counting framework that leverages
+                state-of-the-art view synthesis methods to count fruits directly in 3D.
+                Our framework takes an unordered set of posed images captured by a monocular camera and segments
+                fruits in each image.
+                To make our system independent of the fruit type we employ a foundation model that generates
+                binary segmentation masks for any fruit.
+                RGB images and semantic masks are then used to train a semantic neural radiance field.
+                Through uniform sampling of the implicit fruit field, we obtain fruit-only point clouds.
+                By applying cascaded clustering on the extracted point cloud, our approach achieves precise
+                fruit count.
+                The use of neural radiance fields provides significant advantages over conventional methods such
+                as object tracking or optical flow, as the counting itself is lifted into 3D.
+                Our method prevents double-counting fruits and avoids counting fruits on the ground or in the
+                background.
+                We evaluate our methodology using real-world data with manually counted ground truths and
+                synthetically generated data.
+                Although we evaluate the performance of fruit counting between the foundation model compared to
+                a self-trained U-Net.
+                Our results underscore the effectiveness of FruitNeRF, showcasing strong results over
+                different fruit types.
+            </p>
+
+            <p>
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section class="hero is-light ">
+    <div class="hero-body is-centered has-text-centered">
+        <h2 class="title is-3">Fruit Point Cloud Viewer</h2>
+        <div class="sketchfab-embed-wrapper">
+            <iframe title="Tree 01 - Density" frameborder="10" allowfullscreen mozallowfullscreen="true"
+                    webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
+                    width="800" height="600"
+                    xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
+                    src="https://sketchfab.com/models/fe86bc1c8a31456286a09caaa6f31aa9/embed"></iframe>
+            <iframe title="Tree 01 - Semantics" frameborder="0" allowfullscreen mozallowfullscreen="true"
+                    webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
+                    xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
+                    width="800" height="600"
+                    src="https://sketchfab.com/models/ddc8276ee61944dd919c2c131ddb15b4/embed"></iframe>
+            <iframe title="Tree 01 - Estimated Clusters" frameborder="0" allowfullscreen
+                    mozallowfullscreen="true" webkitallowfullscreen="true"
+                    allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+                    execution-while-out-of-viewport execution-while-not-rendered web-share
+                    width="800" height="600"
+                    src="https://sketchfab.com/models/6db68ada85de465584c069d7a4770485/embed"></iframe>
+        </div>
+</section>
+
+
+<section class="hero is-medium">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h2 class="title is-4 is-centered has-text-centered">Synthetic Dataset</h2>
+            <!--img id="pipeline1" src="static/images/FruitNerf_SyntheticDataset.png" width="72%"-->
+        </div>
+        <h4 class="title is-4 is-centered has-text-centered"></h4>
+        <div class="container">
+            <div id="results-carousel" class="carousel results-carousel 3">
+                <div class="item item-apple">
+                    <video poster="" id="apple" autoplay muted loop playsinline height="100%">
+                        <source src="./static/videos/apple.webm"
+                                type="video/webm">
+                    </video>
+                </div>
+                <div class="item item-pear">
+                    <video poster="" id="pear" autoplay muted loop playsinline height="100%">
+                        <source src="./static/videos/pear.webm"
+                                type="video/webm">
+                    </video>
+                </div>
+                <div class="item item-plum">
+                    <video poster="" id="plum" autoplay muted loop playsinline height="100%">
+                        <source src="./static/videos/plum.webm"
+                                type="video/webm">
+                    </video>
+                </div>
+                <div class="item item-mango">
+                    <video poster="" id="mango" autoplay muted loop playsinline height="100%">
+                        <source src="./static/videos/mango.webm"
+                                type="video/webm">
+                    </video>
+                </div>
+                <div class="item item-lemon">
+                    <video poster="" id="lemon" autoplay muted loop playsinline height="100%">
+                        <source src="./static/videos/lemon.webm"
+                                type="video/webm">
+                    </video>
+                </div>
+                <div class="item item-peach">
+                    <video poster="" id="peach" autoplay muted loop playsinline width="100%">
+                        <source src="./static/videos/peach.webm"
+                                type="video/webm">
+                    </video>
+                </div>
+            </div>
+            <p>Thanks to <strong> <a href="https://github.com/GSORF" style="color: blueviolet">Adam Kalisz</a></strong>
+                for rendering the scenes!</p>
+            <div class="container has-text-centered">
+
+                                        <span class="link-block">
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                           class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Download Synthetic Data here</span>
+                  </a></span>
+            </div>
+            <br>
+
+
+        </div>
+
+
+        <div class="container  has-text-centered">
+            <h2 class="title is-4 is-centered has-text-centered">Real-World Dataset</h2>
+            <img id="pipeline2" src="static/images/appledata_small.jpg" width="60%">
+
+            <br>
+
+            <span class="link-block">
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                           class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Download Real-World Data here</span>
+                  </a></span>
+
+
+        </div>
+    </div>
+</section>
+
+<script>
+
+    bulmaCarousel.attach('#results-carousel', {
+        slidesToScroll: 1,
+        slidesToShow: 5
+    });
+
+
+</script>
+
+<section class="hero is-small is-light ">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h4 class="title is-4 is-centered has-text-centered">Fruit Segmentation Comparison</h4>
+            <div class="b-dics" style="width: 60%; margin: auto">
+                <!--; float: left;">//-->
+                <img src="static/images/sam.JPG" alt="SAM"/>
+                <img src="static/images/rgb.JPG" alt="RGB"/>
+                <img src="static/images/unet.JPG" alt="U-Net"/>
+            </div>
+            <small>(click and drag to swipe)</small>
+            <div class="b-dics" style="width: 60%; margin: auto">
+                <!--; float: left;">//-->
+                <img src="static/images/sam2.JPG" alt="SAM"/>
+                <img src="static/images/rgb2.JPG" alt="RGB"/>
+                <img src="static/images/unet2.JPG" alt="U-Net"/>
+            </div>
+            <small>(click and drag to swipe)</small>
+            <div class="b-dics" style="width: 60%; margin: auto">
+                <!--; float: left;">//-->
+                <img src="static/images/sam3.JPG" alt="SAM"/>
+                <img src="static/images/rgb3.JPG" alt="RGB"/>
+                <img src="static/images/unet3.JPG" alt="U-Net"/>
+            </div>
+            <small>(click and drag to swipe)</small>
+        </div>
+    </div>
+</section>
+
+
+<section class="hero is-small">
+    <div class="hero-body is-light">
+        <div class="container has-text-centered">
+
+
+            <h2 class="title is-3">Acknowledgements</h2>
+            <div class="content has-text-justified">
+                <p>
+
+                    We extend our gratitude to <b>Adam Kalisz</b> for his unique Blender skills and <b>Victoria
+                    Schmidt</b> & <b>Annika Killer</b> for their invaluable assistance in evaluating the recorded
+                    apple trees. Additional thanks to <b>Roland Gruber</b>, <b>Christoph Drescher</b> and
+                    <b>Julian Bittner</b> for their annotation support.
+
+                    This project is funded by the 5G innovation program of the German Federal Ministry for Digital
+                    and Transport under the funding code 165GU103B.
+                </p>
+
+            </div>
+        </div>
+        <!--/ Abstract. -->
+
+        <!-- Paper video. -->
+        <!--div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Video</h2>
+                <div class="publication-video">
+                    <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div-->
+        <!--/ Paper video. -->
+    </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>@Article{FruitNeRF2024,
+      author       = {Meyer, Lukas and Gilson, Andreas and Schmid, Ute and Stamminger},
+      title        = {FruitNeRF: A Unified Neural Radiance Field based Fruit Counting Framework},
+      journal      = {ArXiv},
+      month        = {February},
+      year         = {2024},
+      url          = {https://meyerls.github.io/fruit_nerf}
+}</code></pre>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="content has-text-centered">
+            <a class="icon-link"
+               href="http://scholar.google.comf">
+                <i class="fas fa-file-pdf"></i>
+            </a>
+            <a class="icon-link" href="https://github.com/meyerls" class="external-link" disabled>
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <div class="content">
+                    <p>
+                        This website is licensed under a <a rel="license"
+                                                            href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                        Commons Attribution-ShareAlike 4.0 International License</a>.
+                    </p>
+                    <p>
+                        The source code of this website is borrowed from <a
+                            href="https://github.com/nerfies/nerfies.github.io">nerfies</a>.
+                        We thank the authors for sharing the template.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
